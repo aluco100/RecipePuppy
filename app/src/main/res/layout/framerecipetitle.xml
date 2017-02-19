@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16sp"
+        android:id="@+id/RecipeId">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RecipeTitle"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:padding="8sp"/>
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:id="@+id/RecipeImage"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>
